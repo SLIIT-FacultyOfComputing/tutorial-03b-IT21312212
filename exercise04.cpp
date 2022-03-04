@@ -19,6 +19,13 @@ void print(int len, int wth) {
 }
 
 // Implement the Input Function here
+void input(int &len, int &wth)
+{
+  cout<< " Enter Length : ";
+  cin >> len;
+  cout<< " Enter Width : ";
+  cin>> wth;
+}
 int volume(int height, int width, int length)
 {
   return height * width * length;
